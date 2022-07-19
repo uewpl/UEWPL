@@ -1,5 +1,5 @@
 :root{
-    --main-color:#d3ad7f;
+    --main-color:#FF954F;
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -73,7 +73,7 @@ section{
 }
 
 .header{
-    background: #e6d0bf;
+    background: rgb(40, 45, 61);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,14 +84,16 @@ section{
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 4rem;
+    /* background-color: #ffffff;
+    opacity: 0.6; */
 }
 
 .header .navbar a{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Teko', sans-serif;
     margin:0 1rem;
-    font-size: 2rem;
-    color:rgb(190, 80, 52);
+    font-size: 2.5rem;
+    color: var(--main-color);
 }
 
 .header .navbar a:hover{
@@ -101,7 +103,7 @@ section{
 }
 
 .header .icons div{
-    color:rgb(190, 80, 52);
+    color:var(--main-color);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -132,7 +134,7 @@ section{
 }
 
 .header .search-form input{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Teko', sans-serif;
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -156,7 +158,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(Images/home.jpg) no-repeat;
+    background:url(Images/home.webp) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -166,18 +168,18 @@ section{
 }
 
 .home .content h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Teko', sans-serif;
     font-style: normal;
-    font-size: 9rem;
-    color: rgb(148, 66, 45);
+    font-size: 8rem;
+    color: whitesmoke;
 }
 
 .home .content p{
-    font-family: 'Scheherazade New', serif;
-    font-size: 2.5rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
     line-height: 1.5;
     padding:1rem 0;
-    color:white;
+    color: whitesmoke;
 }
 
 .designs .box-container{
@@ -308,135 +310,6 @@ section{
     color:whitesmoke;
 }
 
-
-.newsletter .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1rem;
-}
-
-.newsletter-img img{
-    height: 25rem;
-    width: 50rem;
-    display: block;
-}
-
-.newsletter-content{
-    padding: 3rem 2rem;
-    color: whitesmoke;
-    background: none;
-    text-align: center;
-}
-
-.newsletter-content h2{
-    font-family: 'Ephesis', cursive;
-    color:rgb(88, 60, 60);
-    display: block;
-    font-size: 4rem;
-    line-height: 1.5rem;
-}
-
-.newsletter-content p{
-    font-family: 'Scheherazade New', serif;
-    margin: 1.2rem 0;
-    font-size: 2.5rem;
-    word-spacing: 2px;
-    font-weight: 600;
-
-}
-
-.email-input {
-    font-family: 'Scheherazade New', serif;
-    border: none;
-    border-radius: 2px;
-    background: #fff;
-    padding: 0.65rem;
-    font-size: 1.5rem;
-    width: 100%;
-    outline: 0;
-}
-
-.submit-btn{
-    background: #d6b195;
-    font-family: 'Scheherazade New', serif;
-    border: none;
-    font-size: 1.8rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 1rem 0;
-    color: #fff;
-    width: 100%;
-    padding: 0.2rem 0;
-    outline: 0;
-    cursor: pointer;
-    transition: background 0.5s ease-in-out;
-}
-
-.submit-btn:hover{
-    background: #d6935f;
-}
-
-.newsletter-content > span{
-    font-size: 2.5rem;
-    font-family: 'Ephesis', cursive;
-
-}
-
-.blogs .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1rem;
-}
-
-.blogs .box-container .box{
-    border:rgb(88, 60, 60);
-    text-align: center;
-    padding: 2rem;    
-}
-
-.blogs .box-container .box .image img{
-    height: 20rem;
-    width: 20rem;
-    box-shadow: white  0px 5px 15px;
-    border-radius: 1px;
-}
-
-.blogs .box-container .box:hover .image img{
-    transform: scale(1.2);
-}
-
-.blogs .box-container .box .content{
-    padding: 2rem;
-}
-
-.blogs .box-container .box .content .title{
-    font-family: 'Scheherazade New', serif;
-    color: whitesmoke ;
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-
-.blogs .box-container .box .content .title:hover{
-    color:rgb(88, 60, 60);
-}
-
-.blogs .box-container .box .content span{
-    font-family: 'Ephesis', cursive;
-    color:rgb(88, 60, 60);
-    display: block;
-    padding-top: 0.5rem;
-    font-size: 2rem;
-}
-
-.blogs .box-container .box .content p{
-    font-family: 'Scheherazade New', serif;
-    color: rgb(190, 80, 52);
-    font-size: 1.6rem;
-    line-height: 1.5;
-    padding:1rem 0;
-}
-
 .contact .row{
     display: flex;
     background:transparent;
@@ -489,7 +362,7 @@ section{
 }
 
 .footer{
-    background:rgb(88, 60, 60);
+    background:rgb(40, 45, 61);
     text-align: center;
 }
 
@@ -498,9 +371,9 @@ section{
 }
 
 .footer .share a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     font-size: 2rem;
     color:#fff;
     border:var(--border);
@@ -532,18 +405,16 @@ section{
 }
 
 .footer .info{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Teko', sans-serif;
     font-size: 2.5rem;
     color:#fff;
     font-weight: lighter;
 }
 
 .footer .info span{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Teko', sans-serif;
     color:var(--main-color);
 }
-
-
 
 /* media queries  */
 @media (max-width:991px){
