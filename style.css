@@ -182,43 +182,75 @@ section{
     color: whitesmoke;
 }
 
-.designs .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1rem;
-    
-}
-
-.designs .box-container .box{
-    padding:2rem;
-    text-align: center;
-    border:none;    
-}
-
-.designs .box-container .box img{
-    height: 40rem;
-    width: 30rem;
-}
-
-.designs .box-container .box h3{
+.about .box-container .box .aboutUs h3{
     font-family: 'Ephesis', cursive;
     color: rgb(163, 84, 64) ;
     font-size: 3.5rem;
     padding:0.5rem 0;
 }
 
-.designs .box-container .box p{
+.about .box-container .box .aboutUs p{
+    font-family: 'Scheherazade New', serif;
+    color: rgb(246, 246, 246);
+    font-size: 2rem;
+    padding: 0rem 0;
+}
+
+.about .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1rem; 
+}
+
+.about .box-container .box{
+    padding:2rem;
+    text-align: center;
+    border:none;    
+}
+
+.about .box-container .box img{
+    /* height: 80rem; */
+    margin-top: 10rem;
+    width: 50rem;
+}
+
+.projects .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1rem;
+    
+}
+
+.projects .box-container .box{
+    padding:2rem;
+    text-align: center;
+    border:none;    
+}
+
+.projects .box-container .box img{
+    height: 40rem;
+    width: 30rem;
+}
+
+.projects .box-container .box h3{
+    font-family: 'Ephesis', cursive;
+    color: rgb(163, 84, 64) ;
+    font-size: 3.5rem;
+    padding:0.5rem 0;
+}
+
+.projects .box-container .box p{
     font-family: 'Scheherazade New', serif;
     color: rgb(255, 249, 239);
     font-size: 2rem;
     padding: 0rem 0;
 }
 
-.designs .box-container .box:hover{
+.projects .box-container .box:hover{
     background:#fff;
 }
 
-.designs .box-container .box:hover > *{
+.projects .box-container .box:hover > *{
     color:var(--black);
 } 
 
