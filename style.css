@@ -6,7 +6,7 @@
 }
 
 *{
-    font-family: sans-serif;
+    font-family: 'Varela Round', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -44,7 +44,7 @@ section{
 }
 
 .heading{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
     color:#fff;
     padding-bottom: 2rem;
@@ -52,12 +52,12 @@ section{
 }
 
 .heading span{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(190, 80, 52);
 }
 
 .btn{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Varela Round', sans-serif;
     margin-top: 0.5rem;
     display: inline-block;
     padding: 0.5rem 0.9rem;
@@ -175,7 +175,7 @@ section{
 }
 
 .home .content p{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     padding:1rem 0;
@@ -183,14 +183,14 @@ section{
 }
 
 .about .box-container .box .aboutUs h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(163, 84, 64) ;
     font-size: 3.5rem;
     padding:0.5rem 0;
 }
 
 .about .box-container .box .aboutUs p{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(246, 246, 246);
     font-size: 2rem;
     padding: 0rem 0;
@@ -233,14 +233,14 @@ section{
 }
 
 .projects .box-container .box h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(163, 84, 64) ;
     font-size: 3.5rem;
     padding:0.5rem 0;
 }
 
 .projects .box-container .box p{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(255, 249, 239);
     font-size: 2rem;
     padding: 0rem 0;
@@ -275,7 +275,7 @@ section{
 }
 
 .courses .box-container .box .content h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     color: rgb(148, 66, 45) ;
     font-size: 3.5rem;
     padding:0.5rem 0;
@@ -330,14 +330,14 @@ section{
 }
 
 .team .box-container .box h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     padding: 0.5rem 0;
     font-size: 3.5rem;
     color:rgb(148, 66, 45);
 }
 
 .team .box-container .box h4{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 2.5rem;
     color:whitesmoke;
 }
@@ -362,7 +362,7 @@ section{
 }
 
 .contact .row form h3{
-    font-family: 'Ephesis', cursive;
+    font-family: 'Varela Round', sans-serif;
     padding: 0.5rem 0;
     font-size: 4rem;
     color:rgb(148, 66, 45);
@@ -384,7 +384,7 @@ section{
 }
 
 .contact .row form .inputBox input{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Varela Round', sans-serif;
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
