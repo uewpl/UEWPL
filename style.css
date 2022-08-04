@@ -1,5 +1,5 @@
 :root{
-    --main-color:#FF954F;
+    --main-color:#c26120;
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -156,21 +156,22 @@ section{
 
 .home{
     min-height: 100vh;
-    display: flex;
+    margin-top: 5%;
     align-items: center;
-    background:url(Images/home.webp) no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-position: center;
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 100%;
+    text-align: center;
 }
 
 .home .content h3{
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-size: 8rem;
+    text-align: center;
     color: whitesmoke;
 }
 
